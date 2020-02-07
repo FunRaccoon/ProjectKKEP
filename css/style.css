@@ -26,3 +26,75 @@
 .123 {
 		width: 1000px;
 }
+#test1 {
+	color:green;
+	font-family:verdana;
+	font-size:1.2em;
+}
+.test1 {
+	color:blue;
+	font-family:verdana;
+	font-size:1.2em;
+}
+h2.test1 {
+	color:yellow;
+	font-family:verdana;
+	font-size:1.2em;
+}
+div.oneone p {
+	color:purple;
+	font-family:verdana;
+	font-size:1.2em;
+}
+div > h3 {
+	color:pink;
+}
+#greycol {
+	color:grey;
+}
+.yellowcol {
+	color:yellow;
+}
+div.onetwo div p {
+	color:red;
+}
+div h4 p {
+	color:green;
+}
+#nums {
+	color:#1fb5b8;
+}
+#family {
+	color: #9b2d30;
+}
+.text {
+	color: #7c8a58;
+}
+.odin {	
+	font-family: Arial Black;
+	font-size: 20px;
+}
+.dwa {	
+	font-family: Courier New;
+	font-size: 24px;
+	font-style:italic;
+}
+.tri {	
+	font-family: Verdana;
+	font-size: 10px;
+	font-weight:bold;
+}
+.chetire {	
+	font-family: Georgia;
+	font-size: 2.5em;
+}
+.pyat {	
+	font-family: Comic Sans MS;
+	font-size: 1.3em;
+	font-style:italic;
+}
+#bg {
+	background-color: #86e9eb;	
+}
+
+
