@@ -9,13 +9,20 @@
 }
 .acua {
 	background-color:	#00bfff;
+	padding: 5px;
 }
 .WOWblue {
 	background-color: #b8e4ff;
+	padding-right: 8px;
 }
 .blackblue {
 	background-color:	#007399;
+	padding-right: 8px;
 }
 .purple {
 	background-color: #72417d;
+	padding-right: 8px;
+}
+.123 {
+		width: 1000px;
 }
