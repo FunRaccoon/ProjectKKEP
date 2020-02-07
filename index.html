@@ -137,13 +137,31 @@
 		<div>
 			Оставить отзыв<p/>
 			<form>
-				Оцените:<p>
-					<input type="radio"/>1
-					<input type="radio"/>2
-					<input type="radio"/>3
-					<input type="radio"/>4
-					<input type="radio"/>5
-				</p>
+				Оцените:<br>
+					<input type="radio" name="vibor"/>1
+					<input type="radio" name="vibor"/>2
+					<input type="radio" name="vibor"/>3
+					<input type="radio" name="vibor"/>4
+					<input type="radio" name="vibor"/>5
+				<br>Введите ФИО:<br>
+					<input type="text"/>
+				<br>Из какого Вы города?:<br>
+					<select>
+						<option>Москва</option>
+						<option>Уфа</option>
+						<option>Краснодар</option>
+					</select>
+				<br>Введите email:<br>
+					<input type="text"/>
+				<br>Посоветуете друзьям?<br>
+					<input type="checkbox" name="com"/>Да, посоветую<br>
+					<input type="checkbox" name="com"/>Возможно посоветую<br>
+					<input type="checkbox" name="com"/>Нет, не посоветую
+				<p/>
+				Отзыв<br>
+					<textarea cols="25px" rows="4px"></textarea><p/>
+				<input type="submit"/>
+				<button type="reset">Очистить</button>
 			</form>
 		</div>
 	</body>
