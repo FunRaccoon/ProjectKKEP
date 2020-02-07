@@ -96,14 +96,50 @@ div h4 p {
 #bg {
 	background-color: #86e9eb;	
 }
-
-
-
-
-
-
-
-
+ul.zad1{
+	list-style:none;
+	list-style-image: url(img/faq_list5_2.png) no-repeat 0 4px;
+	padding-left: 24px;
+}
+#table {
+	border: 1;
+	font-family:Arial;
+	border: 1px dotted black;
+	border-spacing: 0;
+	width:700px;
+}
+#odinO {
+	height:70px;
+	vertical-align: top;
+}
+#dwaO {
+	vertical-align: middle;
+}
+#triO {
+	vertical-align: bottom;
+}
+#odinD {
+	border-width: 2px;
+}
+#dwaD {
+	border-width: 3px;
+}
+#triD {
+	border-width: 4px;
+}
+#odinT {
+	text-align: left;
+	padding-right:20px;
+}
+#dwaT {
+	text-align: right;
+	padding-left:20px;
+}
+#triT {
+	border-top-width:0px;
+	vertical-align: middle;
+	padding-left:40px;
+}
 
 
 
