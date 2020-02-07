@@ -1,6 +1,4 @@
-.red {
-	color:red;
-}
+.red {color:red;}
 .yellow {
 	color:yellow;
 }
@@ -15,17 +13,8 @@
 	background-color: #b8e4ff;
 	padding-right: 8px;
 }
-.blackblue {
-	background-color:	#007399;
-	padding-right: 8px;
-}
-.purple {
-	background-color: #72417d;
-	padding-right: 8px;
-}
-.123 {
-		width: 1000px;
-}
+.blackblue {background-color:	#007399;padding-right: 8px;}
+.purple {background-color: #72417d;padding-right: 8px;}
 #test1 {
 	color:green;
 	font-family:verdana;
@@ -46,34 +35,15 @@ div.oneone p {
 	font-family:verdana;
 	font-size:1.2em;
 }
-div > h3 {
-	color:pink;
-}
-#greycol {
-	color:grey;
-}
-.yellowcol {
-	color:yellow;
-}
-div.onetwo div p {
-	color:red;
-}
-div h4 p {
-	color:green;
-}
-#nums {
-	color:#1fb5b8;
-}
-#family {
-	color: #9b2d30;
-}
-.text {
-	color: #7c8a58;
-}
-.odin {	
-	font-family: Arial Black;
-	font-size: 20px;
-}
+div > h3 {color:pink;}
+#greycol {color:grey;}
+.yellowcol {color:yellow;}
+div.onetwo div p {color:red;}
+div h4 p {color:green;}
+#nums {color:#1fb5b8;}
+#family {color: #9b2d30;}
+.text {color: #7c8a58;}
+.odin {	font-family: Arial Black;font-size: 20px;}
 .dwa {	
 	font-family: Courier New;
 	font-size: 24px;
@@ -84,23 +54,13 @@ div h4 p {
 	font-size: 10px;
 	font-weight:bold;
 }
-.chetire {	
-	font-family: Georgia;
-	font-size: 2.5em;
-}
+.chetire {	font-family: Georgia;font-size: 2.5em;}
 .pyat {	
 	font-family: Comic Sans MS;
 	font-size: 1.3em;
 	font-style:italic;
 }
-#bg {
-	background-color: #86e9eb;	
-}
-ul.zad1{
-	list-style:none;
-	list-style-image: url(img/faq_list5_2.png) no-repeat 0 4px;
-	padding-left: 24px;
-}
+#bg {background-color: #86e9eb;	}
 #table {
 	border: 1;
 	font-family:Arial;
@@ -108,43 +68,107 @@ ul.zad1{
 	border-spacing: 0;
 	width:700px;
 }
-#odinO {
-	height:70px;
-	vertical-align: top;
-}
-#dwaO {
-	vertical-align: middle;
-}
-#triO {
-	vertical-align: bottom;
-}
-#odinD {
-	border-width: 2px;
-}
-#dwaD {
-	border-width: 3px;
-}
-#triD {
-	border-width: 4px;
-}
-#odinT {
-	text-align: left;
-	padding-right:20px;
-}
-#dwaT {
-	text-align: right;
-	padding-left:20px;
-}
+#odinO {height:70px;vertical-align: top;}
+#dwaO {vertical-align: middle;}
+#triO {vertical-align: bottom;}
+#odinD {border-width: 2px;}
+#dwaD {border-width: 3px;}
+#triD {border-width: 4px;}
+#odinT {text-align: left;padding-right:20px;}
+#dwaT {text-align: right;padding-left:20px;}
 #triT {
 	border-top-width:0px;
 	vertical-align: middle;
 	padding-left:40px;
 }
+.zad31 {border:solid brown;}
+.zad32 {border-right:solid red; border-left:solid red;}
+.zad33 {border: dotted blue; border-top: solid pink;}
+.zad34 {border: 1px solid orange;}
+.zad35 {border: 2px solid red; border-right: dotted grey; border-left: dotted grey;}
+.zad36 {border: 1px solid #1435AD;}
+.zad37 {border-top: 1px dotted #FF8100;border-bottom: 2px solid #0B6124}
 
 
 
+.shab {
+	border:0px solid grey;
+	background:#dbdbdb;
+	height: 400px;
+	width:300px;
+}
 
-
+.cube1 {
+	position:absolute;
+	color:black;
+	border:0px solid black;
+	border-radius:5px;
+	background-color:#00bfff;
+	padding-left:100px;
+	padding-bottom:100px;
+	margin-left:100px;
+	margin-right:100px;
+}
+.cube2 {
+	position:absolute;
+	color:black;
+	border:0px solid black;
+	border-radius:5px;
+	background-color:#00bfff;
+	padding-left:100px;
+	padding-bottom:100px;
+	margin-top:120px;
+	margin-left:180px;
+	margin-right:100px;
+}
+.cube3 {
+	position:absolute;
+	color:black;
+	border:0px solid black;
+	border-radius:5px;
+	background-color:#00bfff;
+	padding-left:100px;
+	padding-bottom:100px;
+	margin-top:120px;
+	margin-left:20px;
+	margin-right:100px;
+}
+.cube4 {
+	position:absolute;
+	color:black;
+	border:0px solid black;
+	border-radius:5px;
+	background-color:#00bfff;
+	padding-left:50px;
+	padding-bottom:50px;
+	margin-top:350px;
+	margin-left:230px;
+	margin-right:100px;
+}
+.pryam1 {
+	position:absolute;
+	color:black;
+	border:0px solid black;
+	border-radius:5px;
+	background-color:#00bfff;
+	padding-left:260px;
+	padding-bottom:80px;
+	margin-top:240px;
+	margin-left:20px;
+	margin-right:100px;
+}
+.pryam2 {
+	position:absolute;
+	color:black;
+	border:0px solid black;
+	border-radius:5px;
+	background-color:#00bfff;
+	padding-left:180px;
+	padding-bottom:50px;
+	margin-top:350px;
+	margin-left:20px;
+	margin-right:100px;
+}
 
 
 
